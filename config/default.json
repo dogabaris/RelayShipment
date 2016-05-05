@@ -1,4 +1,11 @@
 {
+	"database": {
+		"dialect": "mysql",
+		"host": "woice.ninja",
+		"user": "relay-shipment",
+		"database": "relay-shipment",
+		"password": "relay-shipment"
+  	},
 	"gluon":{
 		"listen":{
 			"ip":"0.0.0.0",
@@ -8,12 +15,5 @@
 	},
 	"logger":{
 		"level":"DEBUG"
-	},
-	"database": {
-    "dialect": "mysql",
-    "host": "woice.ninja",
-    "user": "relay-shipment",
-    "database": "relay-shipment",
-    "password": "relay-shipment"
-  	}
+	}
 }

@@ -23,6 +23,12 @@ module.exports = db.define('User', {
     type: sequelize.INTEGER,
     allowNull: false,
     defaultValue: 0
+  },
+
+  isActivated: {
+    type: sequelize.BOOLEAN,
+    allowNull: false,
+    defaultValue: false
   }
 }, {
   freezeTableName: true,

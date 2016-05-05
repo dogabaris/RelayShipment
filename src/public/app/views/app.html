@@ -1,0 +1,26 @@
+<nav class="navbar navbar-default" ng-controller="HeaderController">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">{{app.name}}</a>
+        </div>
+    </div>
+</nav>
+
+
+<div class="container">
+    <div class="view-group">
+        <div class="app-content-body fade-in-up" ui-view></div>
+
+        <div class="app-footer wrapper b-t bg-light hidden-in-xs-and-sm">
+        <span class="pull-right">{{app.version}} <a href ui-scroll-to="app" class="m-l-sm text-muted"><i
+                class="fa fa-long-arrow-up"></i></a></span>
+            &copy; 2016 Copyright.
+        </div>
+    </div>
+</div>
