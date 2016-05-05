@@ -1,7 +1,7 @@
 {
   "database": {
     "dialect": "mysql",
-    "host": "woice.ninja",
+    "host": "178.62.191.59",
     "user": "relay-shipment",
     "database": "relay-shipment",
     "password": "relay-shipment"
