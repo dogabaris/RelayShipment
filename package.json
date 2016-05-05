@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "src/app.js",
+  "private": true,
   "dependencies": {
     "config": "1.20.1",
     "gluon": "1.2.6",
