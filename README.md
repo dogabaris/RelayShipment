@@ -1,5 +1,10 @@
 # RelayShipment
 
+> you must do these only one time
+> ```bash
+> npm i bower -g
+> ```
+
 type these in project root
 ```bash
 npm i
