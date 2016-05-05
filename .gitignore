@@ -1,1 +1,4 @@
+src/public/vendor
 node_modules
+.idea
+logs
