@@ -44,7 +44,7 @@ require('gluon')({
       airport.findOrCreate({
         where: {name: 'Cengiz Topel Havalimanı'},
         defaults: {
-          name: 'Sabiha Gökçen Havalimanı',
+          name: 'Cengiz Topel Havalimanı',
           country: 'Türkiye',
           city: 'Kocaeli'
         }
