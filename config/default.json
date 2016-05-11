@@ -1,10 +1,10 @@
 {
   "database": {
     "dialect": "mysql",
-    "host": "woice.ninja",
-    "user": "relay-shipment",
+    "host": "127.0.0.1",
+    "user": "root",
     "database": "relay-shipment",
-    "password": "relay-shipment"
+    "password": ""
   },
   "gluon": {
     "listen": {
